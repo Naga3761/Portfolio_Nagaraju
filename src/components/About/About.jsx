@@ -74,16 +74,16 @@ const About = () => {
             transition={{ duration: 0.6 }}
           >
             <p className="about__description">
-              I'm a Senior Full Stack Developer with over 5 years of professional experience building
-              enterprise-grade applications. My expertise spans across backend development with Java and
-              Spring Boot, frontend engineering with React.js, and DevOps practices including containerization
-              and cloud deployment.
+              I'm a Java Fullstack Developer with over 5 years of experience building enterprise-grade
+              applications. Currently working at Comcast as a Senior Software Engineer, I specialize in Java,
+              Spring Boot, Microservices architecture, and modern frontend technologies. My expertise lies in
+              designing and implementing scalable, cloud-native solutions with devops focused deployment strategies.
             </p>
             <p className="about__description">
-              Throughout my career at Capgemini and Tata Consultancy Services, I've worked on diverse
-              projects ranging from microservices architecture to real-time communication platforms. I'm
-              passionate about writing clean, maintainable code and architecting systems that can handle
-              millions of transactions.
+              Throughout my career at Comcast, Capgemini. I've worked on diverse
+              projects ranging from microservices architecture to migration of legacy applications. I'm
+              passionate about writing clean, maintainable code and architecting systems that follow industry
+              best practices and design patterns.
             </p>
             <p className="about__description">
               My approach combines deep technical knowledge with business acumen, ensuring that every

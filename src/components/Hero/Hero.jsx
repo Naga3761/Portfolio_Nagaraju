@@ -55,14 +55,14 @@ const Hero = () => {
           </motion.div>
 
           <motion.h1 variants={itemVariants} className="hero__title">
-            Saravanan Nagaraju {' '}
-            <span className="hero__title-gradient">Java Fullstack Developer</span>
+            Nagaraju Saravanan {' '}
+            <span className="hero__title-gradient">Java Full-Stack Developer</span>
           </motion.h1>
 
           <motion.p variants={itemVariants} className="hero__description">
-            Senior Full Stack Developer with 5+ years of experience architecting and delivering
-            enterprise-grade applications. Specialized in Spring Boot microservices, React
-            applications, and cloud-native solutions at Capgemini and TCS.
+            Java Full-Stack Developer with 5+ years of experience in Java, Spring Boot, and React.
+            Improves reliability and efficiency using Azure cloud and DevOps practices. Focused on clean code,
+            scalable systems, and continuous improvement.
           </motion.p>
 
           <motion.div variants={itemVariants} className="hero__stats">
@@ -72,7 +72,7 @@ const Hero = () => {
             </div>
             <div className="hero__stat-divider" />
             <div className="hero__stat">
-              <div className="hero__stat-value">20+</div>
+              <div className="hero__stat-value">10+</div>
               <div className="hero__stat-label">Projects Delivered</div>
             </div>
           </motion.div>
@@ -114,22 +114,21 @@ const Hero = () => {
               <pre className="hero__code">
                 <code>{`const developer = {
   name: "Nagaraju Saravanan",
-  role: "Full Stack Developer",
+  role: "Java Full-Stack Developer",
   experience: "5+ years",
 
-  backend: ["Java", "Spring Boot", "Microservices"],
-  frontend: ["React", "TypeScript", "Redux"],
-  devops: ["Docker", "Kubernetes", "AWS", "CI/CD"],
+  backend: ["Java", "Spring Boot", "Microservices", "Hibernate"],
+  frontend: ["React", "JavaScript", "HTML", "CSS"],
+  database: ["Oracle", "PostgreSQL", "MongoDB", "Redis"],
+  cloud: ["Azure", "Docker", "Kubernetes", "Terraform"],
 
-  companies: [
-    "Capgemini",
-    "Tata Consultancy Services"
-  ],
+  currentCompany: "Comcast",
+  previousCompany: "Capgemini",
 
   passionate: [
-    "Clean Architecture",
-    "Scalable Systems",
-    "Cloud Native"
+    "Microservices Architecture",
+    "Cloud Native Applications",
+    "RESTful APIs"
   ]
 };`}</code>
               </pre>

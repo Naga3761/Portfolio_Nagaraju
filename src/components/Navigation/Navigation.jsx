@@ -84,7 +84,7 @@ const Navigation = () => {
 
         <div className="nav__social">
           <motion.a
-            href="https://github.com"
+            href="https://github.com/Nagaraju004"
             target="_blank"
             rel="noopener noreferrer"
             className="nav__social-link"
@@ -94,7 +94,7 @@ const Navigation = () => {
             <Github size={20} />
           </motion.a>
           <motion.a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/nagaraju-saravanan-592bbb145/"
             target="_blank"
             rel="noopener noreferrer"
             className="nav__social-link"
@@ -104,7 +104,7 @@ const Navigation = () => {
             <Linkedin size={20} />
           </motion.a>
           <motion.a
-            href="mailto:contact@nagarajusaravanan.dev"
+            href="mailto:nagarajutechcse@gmail.com"
             className="nav__social-link"
             whileHover={{ scale: 1.1, color: '#818cf8' }}
             whileTap={{ scale: 0.95 }}

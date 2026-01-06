@@ -40,25 +40,25 @@ const Contact = () => {
     {
       icon: <Mail size={20} />,
       label: 'Email',
-      value: 'contact@nagarajusaravanan.dev',
-      href: 'mailto:contact@nagarajusaravanan.dev',
+      value: 'nagarajutechcse@gmail.com',
+      href: 'mailto:nagarajutechcse@gmail.com',
     },
     {
       icon: <Linkedin size={20} />,
       label: 'LinkedIn',
       value: 'linkedin.com/in/nagaraju-saravanan',
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/nagaraju-saravanan-592bbb145/',
       external: true,
     },
     {
       icon: <MapPin size={20} />,
       label: 'Location',
-      value: 'Bangalore, India',
+      value: 'Chennai, India',
     },
     {
       icon: <Phone size={20} />,
       label: 'Phone',
-      value: '+91 XXXXX XXXXX',
+      value: '+91 8056731713',
     },
   ];
 
@@ -78,10 +78,10 @@ const Contact = () => {
         >
           <span className="contact__label">Get In Touch</span>
           <h2 className="contact__title">
-            Let's Build <span className="contact__title-gradient">Something Great</span> Together
+            <span className="contact__title-gradient">Reach me </span>   
           </h2>
           <p className="contact__subtitle">
-            Have a project in mind or want to discuss opportunities? Feel free to reach out.
+           Feel free to reach out.  
           </p>
         </motion.div>
 
@@ -95,8 +95,8 @@ const Contact = () => {
           >
             <h3 className="contact__info-title">Contact Information</h3>
             <p className="contact__info-description">
-              I'm always open to discussing new projects, creative ideas, or opportunities to be part
-              of your vision. Feel free to reach out through any of the channels below.
+              I'm always open to discussing new opportunities, creative ideas, or opportunities to be part
+              of your vision.
             </p>
 
             <div className="contact__info-list">
@@ -124,7 +124,7 @@ const Contact = () => {
 
             <div className="contact__cta">
               <a
-                href="mailto:contact@nagarajusaravanan.dev"
+                href="mailto:nagarajutechcse@gmail.com"
                 className="contact__email-button"
               >
                 <Mail size={20} />

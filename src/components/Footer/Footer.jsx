@@ -11,19 +11,19 @@ const Footer = () => {
     {
       name: 'GitHub',
       icon: <Github size={20} />,
-      href: 'https://github.com',
+      href: 'https://github.com/Nagaraju004',
       color: '#333',
     },
     {
       name: 'LinkedIn',
       icon: <Linkedin size={20} />,
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/nagaraju-saravanan-592bbb145/',
       color: '#0077b5',
     },
     {
       name: 'Email',
       icon: <Mail size={20} />,
-      href: 'mailto:contact@nagarajusaravanan.dev',
+      href: 'mailto:nagarajutechcse@gmail.com',
       color: '#6366f1',
     },
   ];

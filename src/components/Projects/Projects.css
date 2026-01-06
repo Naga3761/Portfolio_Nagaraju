@@ -88,23 +88,42 @@
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.8;
+  opacity: 0.85;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .project-card--gradient-1 .project-card__gradient {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80');
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.85) 100%),
+              url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80');
+  background-size: cover, cover;
+  background-position: center, center;
 }
 
 .project-card--gradient-2 .project-card__gradient {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background-image: url('https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80');
+  background: linear-gradient(135deg, rgba(240, 147, 251, 0.9) 0%, rgba(245, 87, 108, 0.85) 100%),
+              url('https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80');
+  background-size: cover, cover;
+  background-position: center, center;
 }
 
 .project-card--gradient-3 .project-card__gradient {
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80');
+  background: linear-gradient(135deg, rgba(79, 172, 254, 0.9) 0%, rgba(0, 242, 254, 0.85) 100%),
+              url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80');
+  background-size: cover, cover;
+  background-position: center, center;
 }
 
 .project-card--gradient-4 .project-card__gradient {
-  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80');
+  background: linear-gradient(135deg, rgba(67, 233, 123, 0.9) 0%, rgba(56, 249, 215, 0.85) 100%),
+              url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80');
+  background-size: cover, cover;
+  background-position: center, center;
 }
 
 .project-card__category {
